@@ -1,7 +1,6 @@
+import { HtmlEditor, Image, Inject, Link, QuickToolbar, RichTextEditorComponent, Toolbar } from '@syncfusion/ej2-react-richtexteditor'
 import React from 'react'
 import { Header } from '../components'
-import { RichTextEditorComponent, Inject, HtmlEditor, Image, Toolbar, LINK, QuickToolbar, Link } from '@syncfusion/ej2-react-richtexteditor'
-import { EditorData } from '../data/dummy'
 // import { Link } from 'react-router-dom'
 
 const Editor = () => {

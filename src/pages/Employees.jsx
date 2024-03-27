@@ -2,7 +2,7 @@ import { ColumnDirective, ColumnsDirective } from '@syncfusion/ej2-react-charts'
 import { GridComponent, Inject, Page, Search, Toolbar } from '@syncfusion/ej2-react-grids'
 import React from 'react'
 import { Header } from '../components'
-import { customersData, customersGrid, employeesData, employeesGrid } from '../data/dummy'
+import { employeesData, employeesGrid } from '../data/dummy'
 
 const Employees = () => {
     return (

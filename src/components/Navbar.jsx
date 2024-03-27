@@ -1,13 +1,13 @@
-import React, { useEffect } from 'react'
 import { TooltipComponent } from '@syncfusion/ej2-react-popups'
-import { useStateContext } from '../context/ContextProvider'
+import React, { useEffect } from 'react'
 import { AiOutlineMenu } from 'react-icons/ai'
-import { FaShoppingCart } from 'react-icons/fa'
 import { BsChatLeft } from 'react-icons/bs'
+import { FaShoppingCart } from 'react-icons/fa'
 import { MdKeyboardArrowDown } from 'react-icons/md'
+import { useStateContext } from '../context/ContextProvider'
 // import {avatar} from ''
 import { RiNotification3Fill } from 'react-icons/ri'
-import { Chat, Cart, UserProfile, Notification } from '../components'
+import { Cart, Chat, Notification, UserProfile } from '../components'
 
 const NavButton = ({
     color, customFunc, title, icon, dotColor

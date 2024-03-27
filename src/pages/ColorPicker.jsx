@@ -1,6 +1,6 @@
-import React from 'react'
-import { Header } from '../components'
-import { ColorPickerComponent } from '@syncfusion/ej2-react-inputs'
+import { ColorPickerComponent } from '@syncfusion/ej2-react-inputs';
+import React from 'react';
+import { Header } from '../components';
 
 const change = (args) => {
     console.log("args: ", args);
