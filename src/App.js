@@ -1,27 +1,27 @@
-import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 import { FiSettings } from "react-icons/fi";
-import { Sidebar, Navbar, Footer, Header, ThemeSettings } from "./components";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import { Navbar, Sidebar, ThemeSettings } from "./components";
+import { useStateContext } from "./context/ContextProvider";
 import {
-  Ecommerce,
-  Customers,
-  Kanban,
-  Editor,
-  Calendar,
-  Employees,
-  Orders,
-  ColorPicker,
-  Line,
   Area,
   Bar,
-  Pie,
-  Financial,
+  Calendar,
   ColorMapping,
+  ColorPicker,
+  Customers,
+  Ecommerce,
+  Editor,
+  Employees,
+  Financial,
+  Kanban,
+  Line,
+  Orders,
+  Pie,
   Pyramid,
   Stacked,
 } from "./pages";
-import { useStateContext } from "./context/ContextProvider";
 function App() {
   const {
     isActiveMenu,
